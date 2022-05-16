@@ -44,8 +44,8 @@ print("""\033[91m
 ##################################################
 host = str(input("[ # ] Masukkan Domainnya  >> "))
 port = int(input("[ # ] Masukkan Portnya >> "))
-times = int(input("[ # ] Connections (300) >> ")
-threads = int(input("[ # ] Threading (3016) >> ")
+times = int(input("[ # ] Connections (300) >> "))
+threads = int(input("[ # ] Threading (3016) >> "))
 ip = socket.gethostbyname(host) # hostname to ip convert
 print("\033[33m") # biru
 clear()
