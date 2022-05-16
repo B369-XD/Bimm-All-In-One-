@@ -21,8 +21,8 @@ clear()
 #merah
 print("""\033[91m
 
-████████╗                =-=-=-=-=-=-=-=- [ TCP FOR WEBSITE ] =-=-=-=-=-=-=-=-
-╚══██╔══╝           =-=-=-=-=-=-=-=- [ Developer Tools Bimzzx ] =-=-=-=-=-=-=-=-
+████████╗       =-=-=-=-=-=-=-=- [ TCP FOR WEBSITE ] =-=-=-=-=-=-=-=-
+╚══██╔══╝   =-=-=-=-=-=-=-=- [ Developer Tools Bimzzx ] =-=-=-=-=-=-=-=-
      ██║   
      ██║   
      ██║   
@@ -52,7 +52,7 @@ clear()
 ##################################################
 
 def attack():
-	data = random._urandom(3016)
+	data = random._urandom(999)
 	i = random.choice(("[*]","[!]","[#]","[?]"))
 	while True:
 		try:
