@@ -28,7 +28,7 @@ banner = """
 \033[91m╔══════════════════╦════════════════════╗
 \033[91m║ BimzzxNextGeneration.        ║ Tools Build At 15/5/2022.         ║
 \033[91m╚══════════════════╩════════════════════╝
-\033[91m[ # ] ATTACKED TO IP \033[33m{}\033[91m AND PORT \033[33m{}\033[0m""".format(ip, port))
+\033[91m[ # ] ATTACKED TO IP \033[33m{}\033[91m AND PORT \033[33m{}\033[0m""".format(ip, port)
 
 def ddos():
 	data = random._urandom(818)
